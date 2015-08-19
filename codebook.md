@@ -1,5 +1,14 @@
 ##Codebook for the "averageData" dataset generated through the run_analysis.R script
-###Variables that identify the subject and activity measured
+###Summary
+In this experiment, 30 subjects were observed on 5 different activities, on which several measurements were made. The variables in this dataset come from the accelerometer and gyroscope 3-axial raw signals (the 3 axes are named X, Y, Z). 2 types of signals were measured: time domain signals and frequency domain signals. This dataset returns the mean and standard deviation of the different variables that were originally measured on the X, Y and Z axes for both types of signals.
+
+This dataset is composed of :
+- 2 variables that identify the subject and the activity observed (subjectID and activity)
+- 40 variables returning the mean and standard deviation of specific measurements of **time domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. 
+- 26 variables returning the mean and standard deviation of specifif measurements of **frequency domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. 
+
+###Detailed variables
+####Variables that identify the subject and activity measured
 - **subjectID:** identifies the subject that is observed. There are 30 subjects in the dataset.
 - **activity:** indicates the activity measured:
     1. WALKING
@@ -9,7 +18,7 @@
     5. STANDING
     6. LAYING
 
-###Variables that return mean and standard deviation of specific measurements of *time domain signals*: 
+####Variables that return mean and standard deviation of specific measurements of *time domain signals*: 
 ######Note: "..." means "x", "Y" or "Z"
 - **Time-BodyAccelerometer-Mean()-...:** Mean body acceleration, measured by the accelerometer for every axis X,Y,Z
 - **Time-BodyAccelerometer-StdDev()-...:** Standard deviation of the body acceleration, measured by the accelerometer for every axis X,Y,Z
@@ -32,7 +41,7 @@
 - **Time-BodyGyroscopeJerkMagnitude-Mean():**  Mean body jerk magnitude, measured by the gyroscope
 - **Time-BodyGyroscopeJerkMagnitude-StdDev():**  Standard deviation of the jerk magnitude, measured by the gyroscope
 
-###Variables that return mean and standard deviation of specific measurements of *frequency domain signals* ("..." means "x", "Y" or "Z"):
+####Variables that return mean and standard deviation of specific measurements of *frequency domain signals* ("..." means "x", "Y" or "Z"):
 ######Note: "..." means "x", "Y" or "Z"
 - **Frequency-BodyAccelerometer-Mean()-...:** Mean body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
 - **Frequency-BodyAccelerometer-StdDev()-...:** Standard deviation of the body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
