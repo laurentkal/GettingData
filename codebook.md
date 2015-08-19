@@ -1,11 +1,11 @@
 subjectID: identifies the subject that is observed. There are 30 subjects in the dataset.
 activity: indicates the activity measured:
-    1. WALKING
-    2. WALKING_UPSTAIRS
-    3. WALKING_DOWNSTAIRS
-    4. SITTING
-    5. STANDING
-    6. LAYING
+    1. WALKING\n
+    2. WALKING_UPSTAIRS\n
+    3. WALKING_DOWNSTAIRS\n
+    4. SITTING\n
+    5. STANDING\n
+    6. LAYING\n
 
 - Variables for the time domain signals (... means "x", "Y" or "Z"):
 Time-BodyAccelerometer-Mean()-...: Mean body acceleration, measured by the accelerometer for every axis X,Y,Z
