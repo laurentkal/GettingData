@@ -3,8 +3,9 @@ This is the repository that contains the code and files for the JHU's Getting an
 - the run_analysis.R script that performs the 5 step-analyses.
 - the code book describing the variables contained in the tidy dataset
 - the tidy dataset ('averageData.txt'), which is the output of step 5.
+
 The original dataset used for this course is the UCI's Human Activity Recognition Using Smartphones dataset. It can be downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-To run the 'run_analysis.R' script, you must download it and uncompress it in your working directory. All files must be in the same working directory and must not be renamed.
+To run the 'run_analysis.R' script, you must download and uncompress the original dataset in your working directory. All files must be in the same working directory and must not be renamed.
 
 ##Comments on step 1
 The datasets are merged using rbind() in order to produce one global dataset for both the train and test sets. Note that activity and subject IDs are also added in the process.
@@ -27,4 +28,4 @@ The variables are renamed with more descriptive names, using gsub() function. Mo
 The variables are further described in the 'codebook.md' file.
 
 ##Comments on step 5
-The ddply() function from the 'dplyr' library is used to apply the colMeans function on each variable, for each subject and activity. The corresponding dataset is uploaded in an independent dataset called 'averageData.txt', located in the working directory. It can be read using read.table() function, with the argument HEADER = TRUE.
+The ddply() function from the 'dplyr' library is used to apply the colMeans function on each variable, for each subject and activity. The corresponding dataset is uploaded in an independent dataset called 'averageData.txt', located in the working directory. It can be read using read.table() function, with the argument header = TRUE.
