@@ -1,4 +1,4 @@
-##Variables used in the "averageData" dataset
+##Codebook for the "averageData" dataset generated through the run_analysis.R script
 ###Variables that identify the subject and activity measured
 *subjectID: identifies the subject that is observed. There are 30 subjects in the dataset.
 *activity: indicates the activity measured:
@@ -34,8 +34,8 @@
 
 *Variables for the Frequency domain signals ("..." means "x", "Y" or "Z"):
     *Frequency-BodyAccelerometer-Mean()-...: Mean body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
-    *Frequency-BodyAccelerometer-StdDev()-...: Standard deviation of the body acceleration for the frequency domain signals, *measured by the accelerometer for every axis X,Y,Z
-    *Frequency-BodyAccelerometerJerk-Mean()-...: Mean body acceleration jerk for the frequency domain signals, measured by the *accelerometer for every axis X,Y,Z
+    *Frequency-BodyAccelerometer-StdDev()-...: Standard deviation of the body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
+    *Frequency-BodyAccelerometerJerk-Mean()-...: Mean body acceleration jerk for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
     *Frequency-BodyAccelerometerJerk-StdDev()-...: Standard deviation of the body acceleration jerk for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
     *Frequency-BodyGyroscope-Mean()-...: Mean body velocity for the frequency domain signals, measured by the gyroscope for every axis X,Y,Z
     *Frequency-BodyGyroscope-Stdev()-...: Standard deviation of the body velocity for the frequency domain signals, measured by the gyroscope for every axis X,Y,Z
