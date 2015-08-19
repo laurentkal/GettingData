@@ -7,7 +7,7 @@ activity: indicates the activity measured:
     5. STANDING
     6. LAYING
 
-- Variables for the time domain signals (... means "x", "Y" or "Z"):
+- Variables for the time domain signals ("..." means "x", "Y" or "Z"):
 Time-BodyAccelerometer-Mean()-...: Mean body acceleration, measured by the accelerometer for every axis X,Y,Z
 Time-BodyAccelerometer-StdDev()-...: Standard deviation of the body acceleration, measured by the accelerometer for every axis X,Y,Z
 Time-GravityAccelerometer-Mean()-...: Mean gravity acceleration, measured by the accelerometer for every axis X,Y,Z
@@ -29,7 +29,7 @@ Time-BodyGyroscopeMagnitude-StdDev():  Standard deviation of the body magnitude,
 Time-BodyGyroscopeJerkMagnitude-Mean():  Mean body jerk magnitude, measured by the gyroscope
 Time-BodyGyroscopeJerkMagnitude-StdDev():  Standard deviation of the jerk magnitude, measured by the gyroscope
 
-- Variables for the Frequency domain signals (... means "x", "Y" or "Z"):
+- Variables for the Frequency domain signals ("..." means "x", "Y" or "Z"):
 Frequency-BodyAccelerometer-Mean()-...: Mean body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
 Frequency-BodyAccelerometer-StdDev()-...: Standard deviation of the body acceleration for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
 Frequency-BodyAccelerometerJerk-Mean()-...: Mean body acceleration jerk for the frequency domain signals, measured by the accelerometer for every axis X,Y,Z
