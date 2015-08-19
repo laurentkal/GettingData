@@ -1,3 +1,5 @@
+##Variables used in the "averageData" dataset
+###Variables that identify the subject and activity measured
 *subjectID: identifies the subject that is observed. There are 30 subjects in the dataset.
 *activity: indicates the activity measured:
     1. WALKING
@@ -7,6 +9,7 @@
     5. STANDING
     6. LAYING
 
+###Variables that return mean and standard deviation of specific measurements
 *Variables for the time domain signals ("..." means "x", "Y" or "Z"):
     *Time-BodyAccelerometer-Mean()-...: Mean body acceleration, measured by the accelerometer for every axis X,Y,Z
     *Time-BodyAccelerometer-StdDev()-...: Standard deviation of the body acceleration, measured by the accelerometer for every axis X,Y,Z
