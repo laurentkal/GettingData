@@ -4,8 +4,8 @@ In this experiment, 30 subjects were observed on 5 different activities, on whic
 
 This dataset is composed of :
 - 2 variables that identify the subject and the activity observed (subjectID and activity)
-- 40 variables returning the mean and standard deviation of specific measurements of **time domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. 
-- 26 variables returning the mean and standard deviation of specifif measurements of **frequency domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. 
+- 40 variables returning the mean and standard deviation of specific measurements of **time domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. Units: The values are normalized and are ranged between [-1,1].
+- 26 variables returning the mean and standard deviation of specifif measurements of **frequency domain signals** for both the accelerometer and the gyroscope signals, on the X, Y and Z axes. The values are normalized and are ranged between [-1,1].
 
 ###Detailed variables
 ####Variables that identify the subject and activity measured
