@@ -1,4 +1,6 @@
 ##Codebook for the "averageData" dataset generated through the run_analysis.R script
+Reference: feature_info.txt file from [Human Activity Recognition Using Smartphones Data Set] (https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 ###Summary
 In this experiment, 30 subjects were observed on 5 different activities, on which several measurements were made. The variables in this dataset come from the accelerometer and gyroscope 3-axial raw signals (the 3 axes are named X, Y, Z). 2 types of signals were measured: time domain signals and frequency domain signals. This dataset returns the mean and standard deviation of the different variables that were originally measured on the X, Y and Z axes for both types of signals.
 
