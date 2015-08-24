@@ -7,6 +7,13 @@ This is the repository that contains the code and files for the JHU's Getting an
 The original dataset used for this course is the UCI's Human Activity Recognition Using Smartphones dataset. It can be downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 To run the 'run_analysis.R' script, you must download and uncompress the original dataset in your working directory. All files must be in the same working directory and must not be renamed.
 
+The run_analysis.R script will do the following to the UCI HAR Dataset:
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement. 
+3. Use descriptive activity names to name the activities in the data set
+4. Appropriately label the data set with descriptive activity names. 
+5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ##Comments on step 1
 The datasets are merged using rbind() in order to produce one global dataset for both the train and test sets. Note that activity and subject IDs are also added in the process.
 
